@@ -1,0 +1,37 @@
+# macOS / Windows
+.DS_Store
+._*
+Icon?
+Thumbs.db
+desktop.ini
+
+# Dropbox
+.dropbox
+.dropbox.attr
+*(Konflikt*)*
+*(conflicted copy*)*
+
+# InDesign
+*.idlk
+*.indd
+*.idml
+
+# Kompilierte Scripte (werden als Release-Datei verteilt, nicht im Code)
+*.jsxbin
+
+# Editoren
+.vscode/
+.idea/
+*.swp
+
+# Claude Code (lokale Einstellungen)
+.claude/
+
+# Testausgaben
+test/output/
+
+# Teaser / marketing material (videos, screenshots)
+Teaser/
+*.mp4
+*.mov
+*.focusee/
